@@ -1,0 +1,46 @@
+{
+  "name": "frontend-react-graphql-apollo-cli",
+  "version": "1.0.0",
+  "description": "Frontend GraphQL (Cliente)",
+  "private": true,
+  "scripts": {
+    "restart": "PORT=4000 react-scripts start",
+    "start": "PORT=3003 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+	"keywords": [
+		"React",
+    "Apollo Client",
+		"GraphQL",
+	],
+  "author": "Damian Navia",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-client": "^2.6.0-rc.3",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.0.1",
+    "react-select": "^3.0.4"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

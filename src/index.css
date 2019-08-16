@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	  font-family: "Courier New", monospace;
+}
+
+.form-control {
+	  color: black!important
+}
+
+.form-group {
+    margin-bottom: 2px!important
+}
+
+.home-logos{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px
+}

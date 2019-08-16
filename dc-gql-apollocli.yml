@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  poc-gql-apollocli:
+    build: .
+    image: graphql-apollocli:poc
+    container_name: poc-gql-apollocli
+    ports:
+      - 3003:3003
+    restart: always
+    volumes:
+      - "./src:/app/src"
+      - "./public:/app/public"
+    networks:
+      - poc-graphql
+networks:
+  poc-graphql:
+    name: poc-graphql
+    external: true
