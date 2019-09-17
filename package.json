@@ -10,11 +10,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-	"keywords": [
-		"React",
+  "keywords": [
+    "React",
     "Apollo Client",
-		"GraphQL",
-	],
+    "GraphQL"
+  ],
   "author": "Damian Navia",
   "license": "ISC",
   "dependencies": {
